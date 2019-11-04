@@ -12,6 +12,8 @@ target_group.update_group(members_details=True)
 
 reminder_msg = f"提醒喝奶茶小助手.jpg"
 
+# TODO: Find a way to send pictures
+
 while True:
     now_time = datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S:%M')
     target_group.send(reminder_msg)
